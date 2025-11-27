@@ -1,44 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | E-commerce product page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | E-commerce product page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header class="container">
+        <nav class="navbar">
+            <div class="topnav">
+                <img src="ecommerce-product-page-main/ecommerce-product-page-main/image/icon-menu.svg" alt=""
+                    class="mt-2 menuu" style="cursor: pointer;" onclick="menu()"> &ThickSpace;&ThickSpace;&ThickSpace;
+                <a href=""><img src="ecommerce-product-page-main/ecommerce-product-page-main/image/logo.svg" alt=""
+                        srcset=""></a>
 
-  Collections
-  Men
-  Women
-  About
-  Contact
+                <ul class="navbar nav">
+                    <li class="nav-item"><a href="" class="nav-link">Collections</a>
+                        <div class="line"></div>
+                    </li>
+                    <li class="nav-item"><a href="" class="nav-link">Men</a>
+                        <div class="line"></div>
+                    </li>
+                    <li class="nav-item"><a href="" class="nav-link">Women</a>
+                        <div class="line"></div>
+                    </li>
+                    <li class="nav-item"><a href="" class="nav-link">About</a>
+                        <div class="line"></div>
+                    </li>
+                    <li class="nav-item"><a href="" class="nav-link">Contact</a>
+                        <div class="line"></div>
+                    </li>
+                </ul>
+            </div>
 
-  Sneaker Company
+            <div id="navimg">
+                <div id="navcart">
+                    <img src="ecommerce-product-page-main/ecommerce-product-page-main/image/icon-cart.svg" alt=""
+                        style="cursor: pointer;" id="open-cart">
+                    <small class="text-white">0</small>
+                </div>
+                <img src="ecommerce-product-page-main/ecommerce-product-page-main/image/image-avatar.png" alt=""
+                    id="dd">
+            </div>
+        </nav>
+        <hr class="">
+    </header>
 
-  Fall Limited Edition Sneakers
+    <aside>
+        <img src="ecommerce-product-page-main/ecommerce-product-page-main/image/icon-close.svg" style="cursor: pointer;"
+            alt="" onclick="clos()">
 
-  These low-profile sneakers are your perfect casual wear companion. Featuring a 
-  durable rubber outer sole, they’ll withstand everything the weather can offer.
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="" class="nav-link">Collections</a>
+                <div class="liner"></div>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link">Men</a>
+                <div class="liner" style="width: 50%;"></div>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link">Women</a>
+                <div class="liner" style="width: 75%;"></div>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link">About</a>
+                <div class="liner" style="width: 60%;"></div>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link">Contact</a>
+                <div class="liner" style="width: 75%;"></div>
+            </li>
+        </ul>
+    </aside>
 
-  $125.00
-  50%
-  $250.00
+    <div class="cart-div shadow-lg">
+        <h2>Cart</h2>
+        <hr>
+        <div class="carts">
+            <p>Your cart is empty.</p>
+            <div id="omo">
+                <!--  -->
+            </div>
 
-  0
-  Add to cart
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
+            <button>Checkout</button>
+        </div>
+    </div>
+
+    <section class="fsection container">
+
+        <div class="vblock">
+
+            <!-- controls  -->
+            <div class="prev cont">
+                <img class="" src="ecommerce-product-page-main/ecommerce-product-page-main/image/icon-previous.svg"
+                    alt="">
+            </div>
+            <div class="next cont">
+                <img class="" src="ecommerce-product-page-main/ecommerce-product-page-main/image/icon-next.svg" alt="">
+            </div>
+
+            <!-- products  -->
+            <img src="ecommerce-product-page-main/ecommerce-product-page-main/image/image-product-1.jpg" id="products"
+                class="shadow" alt="">
+            <img src="ecommerce-product-page-main/ecommerce-product-page-main/image/image-product-2.jpg" id="products"
+                class="shadow" alt="" style="display: none;">
+            <img src="ecommerce-product-page-main/ecommerce-product-page-main/image/image-product-3.jpg" id="products"
+                class="shadow" alt="" style="display: none;">
+            <img src="ecommerce-product-page-main/ecommerce-product-page-main/image/image-product-4.jpg" id="products"
+                class="shadow" alt="" style="display: none;">
+
+            <!-- to products  -->
+            <div class="vbgrid">
+                <img src="ecommerce-product-page-main/ecommerce-product-page-main/image/image-product-1.jpg"
+                    class="active" alt="">
+                <img src="ecommerce-product-page-main/ecommerce-product-page-main/image/image-product-2.jpg" alt="">
+                <img src="ecommerce-product-page-main/ecommerce-product-page-main/image/image-product-3.jpg" alt="">
+                <img src="ecommerce-product-page-main/ecommerce-product-page-main/image/image-product-4.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="sneak">
+            <h3>SNEAKER COMPANY</h3>
+            <p class="pp">Fall Limited Edition <br> Sneakers</p>
+
+            <p class="sneakp">These low-profile sneakers are your perfect casual wear <br> companion. Featuring a
+                durable rubber outer sole, they'll <br> withstand everything the weather can offer.</p>
+
+            <div class="sneak-price">
+                <h2>$125.00</h2>
+                <button class="">50%</button>
+            </div>
+
+            <p class="twf" style="text-decoration: line-through;">$250.00</p>
+
+            <div class="gr">
+                <div class="gr-inner px-3">
+                    <img src="ecommerce-product-page-main/ecommerce-product-page-main/image/icon-minus.svg" alt=""
+                        srcset="" id="innimg1">
+                    <p id="num">0</p>
+                    <img src="ecommerce-product-page-main/ecommerce-product-page-main/image/icon-plus.svg" alt=""
+                        srcset="" id="innimg2">
+                </div>
+
+                <button onclick="addTocart()" class="shadow"> <img
+                        src="ecommerce-product-page-main/ecommerce-product-page-main/image/icon-cart.svg" alt="">Add to
+                    cart</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Lightbox Modal -->
+    <!-- <div class="lightbox" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+            <div class="lightbox-prev">&lt;</div>
+            <div class="lightbox-next">&gt;</div>
+        </div>
+    </div> -->
+
+    <div class="attribution mt-3">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://x.com/ab_dev_design">AbdulBaaqi Akinlade Olajide</a>.
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
