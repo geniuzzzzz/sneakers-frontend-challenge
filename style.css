@@ -108,14 +108,14 @@ small {
 } */
 
 nav ul li a {
-    color: hsl(220, 14%, 75%);
+    color: hsl(220, 14%, 75%) !important;
     font-size: 12px;
     font-weight: 300;
 }
 
 nav ul li a:hover {
     transition: 0.3s;
-    color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 0%) !important;
 }
 
 nav ul li {
