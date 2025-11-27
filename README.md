@@ -80,9 +80,8 @@ Managing Cart State: Implementing the cart functionality taught me how to handle
 
 ## Author
 
-- Website - [AbdulBaaqi Akinlade Olajide](https://www.your-site.com)
 - Frontend Mentor - [@geniuzzzzz](https://www.frontendmentor.io/profile/geniuzzzzz) 
 - Twitter - [@ab_dev_design](https://x.com/ab_dev_design).
-- LinkedIn - [@abdlbaaqi](www.linkedin.com/in/abdlbaaqi)
+- LinkedIn - [@abdlbaaqi](https://www.linkedin.com/in/abdlbaaqi)
 
 
