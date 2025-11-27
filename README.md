@@ -38,7 +38,7 @@ Screenshot(s):
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/e-commerce-product-page-fk4FH3xVnu)
 - Live Site URL: [Add live site URL here](https://sneakers-frontend-challenge.netlify.app/)
 
 
