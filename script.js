@@ -110,7 +110,7 @@ function addTocart() {
                     </div>
     
                     <span class="cart-del">
-                        <img src="ecommerce-product-page-main/ecommerce-product-page-main/images/icon-delete.svg" alt="" class="deletee">
+                        <img src="ecommerce-product-page-main/ecommerce-product-page-main/image/icon-delete.svg" alt="" class="deletee">
                     </span>
             </div>
         `
@@ -212,3 +212,4 @@ for (let i = 0; i < li2.length; i++) {
     })
 
 }
+
