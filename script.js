@@ -100,7 +100,7 @@ function addTocart() {
         omo.innerHTML += `
             <div class="inside-cart">
                     <span class="insc1">
-                        <img src="ecommerce-product-page-main/ecommerce-product-page-main/images/image-product-1.jpg"
+                        <img src="ecommerce-product-page-main/ecommerce-product-page-main/image/image-product-1.jpg"
                             alt="">
                     </span>
     
@@ -210,4 +210,5 @@ for (let i = 0; i < li2.length; i++) {
     li2[i].addEventListener("mouseleave", () => {
         liner[i].style.display = "none";
     })
+
 }
